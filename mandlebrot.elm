@@ -53,6 +53,12 @@ calculate maxIterations c iterations z =
 
 
 computeCell : Int -> Int -> Model -> Model
-computeCell : 
+computeCell row col model = 
+    let 
+        colPercent = 
+            toFloat col / toFloat
+
+        rowPercent =
+            toFloat row / toFloat
 
 
